@@ -6,13 +6,7 @@
     text-decoration: none;
     list-style: none;
 }
-body {
-  font-family: Arial, sans-serif;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+
 
 .background{
     
