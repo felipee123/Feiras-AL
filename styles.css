@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.background{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mt-4 {
+    margin-top: 400px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    transition: all .35s ease;
+    background-color:#ff2121;
+    padding: 14px 14%;
+}
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+}
+
+
+.cabeçalho-link a{
+    color: #0004ff;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.cabeçalho-link a:hover{
+    color: #ffffff;
+}
+
+/* a parte da imagem */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Arial";
+    gap: 16px;
+   
+  }
+  
+  .card {
+    margin-top: 10px;
+    background-color: #fff;
+    width: 32%; /* Ajuste a largura conforme necessário */
+    height: 560px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    display: flex; /* Usar flexbox para alinhar itens */
+    margin-right: 10px;
+  }
+  
+  .image-container {
+    flex: 1; /* Distribui igualmente o espaço entre as imagens */
+    display: flex; /* Para alinhar itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    overflow: hidden; /* Evita que as imagens ultrapassem seus contêineres */
+  }
+  
+  
+  .card img {
+    width: 100%; /* Redimensiona a largura para preencher o contêiner pai */
+    height: 100%; /* Define a altura como metade do contêiner pai */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço alocado */
+    border-top-left-radius: 12px; /* Borda arredondada */
+    border-top-right-radius: 12px; /* Borda arredondada */
+  }
+  
+  
+  .card div {
+    flex: 1; /* Ocupa todo o espaço restante */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 8px; /* Espaçamento interno */
+  }
+  
+  .card h1 {
+    font-size: 1.2rem;
+  }
+  
+  .card h2 {
+    font-size: 0.9rem;
+    color: #000000aa;
+  }
+  .card button {
+    background-color: #6881f1;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  
